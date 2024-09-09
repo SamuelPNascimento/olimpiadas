@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Olimpíadas</title>
+</head>
+<body>
+    <header>
+        <h1>Atletas do Brasil</h1>
+    </header>
+    <main>
+        <section>
+            <input type="text" placeholder="Digite o nome do atleta" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+            <div class="item-resultado">
+                <h2>
+                    <a href="#">Rebeca Andrade</a>
+                </h2>
+                <p class="descricao-meta">-Rebeca Andrade é uma ginasta artística brasileira que conquistou o coração dos brasileiros com sua determinação e talento.</p>
+                <p class="descricao-meta">-Pricipais Conquistas: Ouro no salto em Tóquio 2020, Prata no individual geral em Tóquio 2020, Múltiplas medalhas em Paris 2024</p>
+                <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Mais Informações</a>
+            </div>
+            <div class="item-resultado">
+                <h2>
+                  <a href="#">Rayssa Leal</a>
+                </h2>
+                <p class="descricao-meta">-Rayssa Leal é uma skatista brasileira que conquistou o mundo com suas manobras incríveis e se tornou um ícone da nova geração do skate.</p>
+                <p class="descricao-meta">-Principais Conquistas: Campeã mundial júnior, Primeira mulher a conquistar uma medalha olímpica no skate</p>
+                <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Mais Informações</a>
+              </div>
+              <div class="item-resultado">
+                <h2>
+                  <a href="#">Ana Patrícia</a>
+                </h2>
+                <p class="descricao-meta">-Ana Patrícia é uma jogadora de vôlei de praia brasileira, conhecida por sua habilidade e parceria com Duda. Juntas, elas conquistaram diversos títulos e inspiraram muitas jovens atletas.</p>
+                <p class="descricao-meta">-Principais Conquistas: Campeã olímpica, Melhor atacante da Superliga</p>
+                <a href="https://pt.wikipedia.org/wiki/Ana_Patrícia_Rego" target="_blank">Mais Informações</a>
+              </div>
+        </section>
+    </main>
+    <footer>
+        <p>2024 - Atletas do Brasil. Todos os direitos reservados</p>
+        <p>Entre em contato pelo email:</p>
+    </footer>
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
